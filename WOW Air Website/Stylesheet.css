@@ -1,0 +1,136 @@
+/* All */
+
+*{
+font-family: museo-sans,sans-serif;
+font-weight: 100;
+font-style: normal;
+}
+
+/* Header */
+
+header a img {
+    width: 6em;
+    margin-left: 9em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+header nav {
+    text-align: center;
+}
+header nav a {
+    margin-right: 2em;
+    color: black;
+    text-decoration: none;
+}
+header nav a:hover {
+    font-weight: bolder;
+}
+header h1 {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 3em;
+}
+footer ul {
+    text-align: center;
+}
+footer ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+footer ul li a {
+    border-bottom: none;
+}
+footer ul li a img {
+    width: 2.5em;
+    margin-right: 1.3em;
+    transition: 1s;
+}
+footer ul li a img:hover {
+    transform: scale(1.2)
+}
+
+/* Overzicht.html */
+
+main section h2 {
+    text-align: center;
+    font-weight: 500;
+}
+article {
+    width: 20em;
+    border: 0.188em solid rgb(153,37,141);
+    padding: 1em;
+    margin: 1em;
+    transition: 1s;
+}
+main section article img {
+    width: 100%;
+    width: calc(100% + 2em);
+    margin-left: -1em;
+    margin-top: -1em;
+}
+h3 a {
+    color: rgb(153,37,141);
+}
+article:hover {
+    transform: scale(1.01);
+    box-shadow: 0 1em 1.2em 0 rgb(0,0,0,0.2);
+}
+.rating {
+    font-size: 1.3em;
+    margin-top: 0.3em;
+}
+#search {
+    text-align: center;
+    margin-top: 3em
+}
+#search input {
+    border-color: rgb(153,37,141);
+    font-size: 1em;
+}
+
+/* Form.html */
+
+form {
+    font-size: 1em;
+}
+legend {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+label {
+    font-size: 1.1em;
+}
+fieldset input {
+    display: block;
+    margin-bottom: 1.5em;
+    width: 97%;
+    border-color: rgb(153,37,141);
+    font-size: 1em;
+    transition: all 1s;
+}
+fieldset input:focus {
+    transform: scale(1.02);
+    box-shadow: 0 0.5em 0.7em 0 rgb(0,0,0,0.5);
+}
+fieldset input:valid {
+    background-color: rgb(40, 200, 51, 0.25);
+}
+fieldset {
+    border-color: rgb(153,37,141);
+    width: 22em;
+}
+button {
+    margin-top: 1em;
+    padding: 0.5em;
+    font-size: 1em;
+    width: 6em;
+    background-color: rgb(153,37,141);
+    color: white;
+    font-weight: bold;
+}
